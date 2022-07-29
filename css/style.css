@@ -1,0 +1,249 @@
+@font-face {
+  font-family: "Mulish";
+  src: url(../fonts/Mulish-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Mulish";
+  src: url(../fonts/Mulish-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat-Bold.ttf) format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish";
+  font-style: normal;
+}
+
+.main-advantages .container, .main-statistic .statistic-info, .main-card .main-left-side, .main-card, header ul, header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+a {
+  color: #001A49;
+  text-decoration: none;
+}
+
+body {
+  background-color: #F5F5F5;
+  margin: auto;
+  width: 1120px;
+}
+
+main {
+  margin-top: 200px;
+}
+
+header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 1120px;
+  background-color: #F5F5F5;
+}
+header ul {
+  list-style-type: none;
+}
+header li {
+  font: 700 18px "Mulish";
+}
+header li a {
+  color: #001A49;
+}
+header li a:hover {
+  border-bottom: 2px solid #001A49;
+}
+header li:not(:last-child) {
+  margin-right: 37px;
+}
+header .img-logo {
+  background-image: url(../img/Course\ topics.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 124px;
+  height: 25px;
+}
+header .logo-btn {
+  background: linear-gradient(44.11deg, #8FBBE5 15.75%, #3D75BF 84.63%);
+  border-radius: 33px;
+  padding: 15px 24px;
+  color: #FFFFFF;
+}
+header .logo-btn:hover {
+  background: rgb(119, 119, 235);
+}
+
+.main-card {
+  position: relative;
+}
+.main-card .video {
+  background-image: url(../img/Group\ 7.png);
+  background-repeat: no-repeat;
+  width: 720px;
+  height: 450px;
+  position: absolute;
+  z-index: 1;
+  left: 55%;
+  margin: auto;
+}
+.main-card .main-left-side {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 550px;
+  height: 400px;
+}
+.main-card .main-left-side h1 {
+  font: 700 60px "Montserrat";
+  color: #001A49;
+}
+.main-card .main-left-side p {
+  font: 400 20px "Mulish";
+  color: #4F596A;
+}
+.main-card .main-left-side .subscribe-btn {
+  background: linear-gradient(44.11deg, #8FBBE6 15.75%, #3D75BF 84.63%);
+  border-radius: 33px;
+  width: 180px;
+  padding: 15px 24px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.main-card .main-left-side .subscribe-btn:hover {
+  background: rgb(119, 119, 235);
+}
+
+.main-statistic {
+  position: relative;
+  margin-top: 270px;
+}
+.main-statistic .img-ovali {
+  background-image: url(../img/Side\ Shape.png);
+  background-repeat: no-repeat;
+  width: 288px;
+  height: 288px;
+  position: absolute;
+  right: 85%;
+  top: 35px;
+}
+.main-statistic .statistic-info {
+  position: relative;
+  z-index: 1;
+  height: 170px;
+  width: 100%;
+  border: 1px solid #E7EAEB;
+  background-color: #F5F5F5;
+  border-radius: 21px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.main-statistic .statistic-info .data-stat-1,
+.main-statistic .statistic-info .data-stat-2,
+.main-statistic .statistic-info .data-stat-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main-statistic .statistic-info .data-stat-1 h2,
+.main-statistic .statistic-info .data-stat-2 h2,
+.main-statistic .statistic-info .data-stat-3 h2 {
+  font: 700 40px "Montserrat";
+  color: #001A49;
+}
+.main-statistic .statistic-info .data-stat-1 p,
+.main-statistic .statistic-info .data-stat-2 p,
+.main-statistic .statistic-info .data-stat-3 p {
+  font: 400 16px "Mulish";
+  color: #4F596A;
+}
+.main-statistic .statistic-info .data-stat-1 {
+  margin-left: 55px;
+}
+.main-statistic .statistic-info .data-stat-3 {
+  padding-right: 55px;
+}
+.main-statistic .statistic-info .line {
+  width: 1px;
+  height: 112px;
+  background-color: #E7EAEB;
+}
+
+.main-advantages {
+  margin-top: 170px;
+  margin-bottom: 150px;
+}
+.main-advantages .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main-advantages .title h1 {
+  font: 700 46px "Montserrat";
+  color: #001A49;
+}
+.main-advantages .title p {
+  font: 400 20px "Mulish";
+  color: #4F596A;
+  width: 560px;
+  margin-top: 5px;
+  padding-bottom: 31px;
+}
+.main-advantages .container {
+  background: linear-gradient(44.11deg, #99C6F2 15.75%, #3D75BF 84.63%);
+  border-radius: 21px;
+  width: 100%;
+  height: 172px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main-advantages .container .icon-img {
+  background-image: url(../img/Group\ 8.svg);
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  margin-left: 46px;
+}
+.main-advantages .container h2 {
+  font: 700 24px "Montserrat";
+  color: #001A49;
+}
+.main-advantages .container p {
+  font: 400 16px "Mulish";
+  color: #4F596A;
+  margin-top: 20px;
+  margin-right: 30px;
+  width: 960px;
+}
+.main-advantages .container:not(:first-child) {
+  margin-top: 30px;
+}
