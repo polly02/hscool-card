@@ -205,6 +205,7 @@ header .logo-btn:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
 }
 .main-advantages .title h1 {
   font: 700 46px "Montserrat";
